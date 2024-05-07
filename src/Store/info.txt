@@ -1,0 +1,11 @@
+It contains the redux files like actions, reducers & actionTypes.
+store/actions
+It contains the action files. It used to trigger action to update the redux state
+store/reducers
+It contains the reducers files, each file will have default export of function and will have various switch cases to update the redux state
+store/actionTypes.tsx
+It contains the actionTypes which will be used to configure reducer & actions.
+store/selectors
+It contains the selectors functions, refer Reselect for more details
+store/index.tsx
+It contain the create store function which returns a store object
